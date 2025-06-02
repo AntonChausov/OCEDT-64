@@ -22,4 +22,5 @@
   <content>Enum.ТипыКонтактнойИнформации</content>
   <content>Catalog.ВидыКонтактнойИнформации</content>
   <content>CommonForm.ФормаКонстант</content>
+  <content>Catalog.Производители</content>
 </mdclass:Subsystem>

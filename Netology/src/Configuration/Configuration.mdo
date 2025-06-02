@@ -66,6 +66,7 @@
   <catalogs>Catalog.Упаковки</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <documents>Document.Событие</documents>
   <documents>Document.РеализацияТоваровИУслуг</documents>
   <documents>Document.ПоступлениеТоваровИУслуг</documents>

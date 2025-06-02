@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54ad9ab3-917f-4aa9-acb0-09ca32e69093">
+  <producedTypes>
+    <objectType typeId="c8c131e5-56ac-4ce3-96dd-367bede41619" valueTypeId="6299628e-41a0-4e44-a94f-56013784b214"/>
+    <refType typeId="8dae4913-46d2-4d9f-a56e-9bc9820d9b7a" valueTypeId="15484137-0640-4342-84ef-cbc5d59b9ca8"/>
+    <selectionType typeId="49e4efad-bb7d-4114-826d-c75f8d6fafbf" valueTypeId="4734e6da-9365-453a-81f3-e6ebda466a4e"/>
+    <listType typeId="4faab5f5-c051-4acf-9ed0-73fa5dd9faa9" valueTypeId="3c785d07-cde9-4856-911b-e406b5af8a08"/>
+    <managerType typeId="54228f31-ee43-48a7-93a3-5d694350aecb" valueTypeId="02dcd42c-0cbf-46b8-b544-fcf11d177b57"/>
+  </producedTypes>
+  <name>Производители</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Производители.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Производители.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Производитель</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
