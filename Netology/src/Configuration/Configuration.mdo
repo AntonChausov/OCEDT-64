@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ffe218a1-1447-42bd-96f1-eddaf9919dab">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="16f5d5bb-f105-4495-be04-ef1ed23d773b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a8cebd94-650f-43a0-b8d9-0288f31461b3"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="7bf0582c-4453-4c20-9896-c2e184d42744"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fb4ff9d5-83e6-491d-b2a7-e0b01ec1eedd"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="5a97efa0-75e1-4dc2-ac39-d6830163e791"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="ddd2dbe2-23e3-4df4-af90-82d4f0666e0c"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="16fb369f-ca6d-44e6-82ac-ac4e3e8f5adf"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Кадникова Н.В.</vendor>
+  <version>1.0.0.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="ae937b6a-52cd-4883-bb54-4ffe0faf0249">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Настройки</subsystems>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Сделки</subsystems>
+  <styleItems>StyleItem.ЦветПомеченныхНаУдаление</styleItems>
+  <styleItems>StyleItem.ШрифтПомеченныхНаУдаление</styleItems>
+  <commonPictures>CommonPicture.ОбщаяКартинка1</commonPictures>
+  <commonPictures>CommonPicture.Бланки</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийСотрудник</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <commonModules>CommonModule.РаботаСИНН</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыСервер</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
+  <functionalOptions>FunctionalOption.ВестиРасчетЗаработнойПлаты</functionalOptions>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <definedTypes>DefinedType.Количество</definedTypes>
+  <commonCommands>CommonCommand.НастройкаПрограммы</commonCommands>
+  <commonCommands>CommonCommand.События</commonCommands>
+  <constants>Constant.ВестиРасчетЗаработнойПлаты</constants>
+  <constants>Constant.ВерсияКонфигурации</constants>
+  <commonForms>CommonForm.НастройкаПрограммы</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <documents>Document.Событие</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <documentJournals>DocumentJournal.ДвиженияТоваров</documentJournals>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.Пол</enums>
+  <enums>Enum.ТипНоменклатуры</enums>
+  <enums>Enum.ТипСобытия</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <dataProcessors>DataProcessor.ПересчетПоступлений</dataProcessors>
+</mdclass:Configuration>

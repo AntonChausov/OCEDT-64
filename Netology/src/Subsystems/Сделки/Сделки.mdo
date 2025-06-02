@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff036414-d445-49f1-99d4-9ef8876b4f1f">
+  <name>Сделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сделки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Бланки</picture>
+  </picture>
+  <content>Document.Событие</content>
+  <content>Document.РеализацияТоваровИУслуг</content>
+  <content>Document.ПоступлениеТоваровИУслуг</content>
+  <content>DocumentJournal.ДвиженияТоваров</content>
+  <content>Document.УстановкаЦен</content>
+  <content>DataProcessor.ПересчетПоступлений</content>
+</mdclass:Subsystem>

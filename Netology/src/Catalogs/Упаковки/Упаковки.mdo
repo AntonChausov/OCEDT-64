@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d74768e8-cc7d-4b2c-a6cf-cf23f9ae18b2">
+  <producedTypes>
+    <objectType typeId="8de56894-bb1e-409a-8685-6ee03c1d1cf8" valueTypeId="148ad652-65a8-4aa3-9fb6-3a6614efc4a3"/>
+    <refType typeId="cadfcd3a-8e90-4dc8-b890-52af3391daac" valueTypeId="d3678988-5177-4f10-95b3-4503bfeafe1d"/>
+    <selectionType typeId="02865469-5f60-4c75-b204-3d9d53e43152" valueTypeId="bec06f63-563f-473c-a17b-4a5c48fb76c8"/>
+    <listType typeId="181eb5c0-8bda-45b6-a1ee-88b247f2a90c" valueTypeId="8dc19193-df9c-4e17-82bf-02dcb3835ee7"/>
+    <managerType typeId="e916241b-63cf-40dc-abaf-f74c4767c8ac" valueTypeId="bb2e93e0-72cc-43a5-8a68-79040b2e88e3"/>
+  </producedTypes>
+  <name>Упаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Упаковка</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Вид упаковки</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Список упаковок</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Список упаковок</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

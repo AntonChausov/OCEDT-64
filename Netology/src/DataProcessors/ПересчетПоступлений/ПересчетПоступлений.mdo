@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18935493-1370-4e11-bca7-049025922bf0">
+  <producedTypes>
+    <objectType typeId="c4349a5c-a167-402c-9139-7f983c202421" valueTypeId="173344a6-a592-489f-b79e-44aa8bf2f381"/>
+    <managerType typeId="067c487d-f516-41bf-a185-098c2b41414b" valueTypeId="5fda7f2d-7c82-4032-b929-ca9a7cc7d72f"/>
+  </producedTypes>
+  <name>ПересчетПоступлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пересчет поступлений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПересчетПоступлений.Form.Форма</defaultForm>
+  <attributes uuid="64473b0b-a215-4a2b-a61d-deec1961973e">
+    <name>ДатаНачалаПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9755af0-6050-4ffa-abf4-450028c04de8">
+    <name>ДатаЗавершенияПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата завершения периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="954c8f2f-ae5f-496d-a0d7-9aad0424831f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

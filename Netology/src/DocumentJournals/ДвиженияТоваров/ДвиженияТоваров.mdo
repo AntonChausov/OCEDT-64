@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd09f54c-5f53-4b3d-b086-aca67a88d522">
+  <producedTypes>
+    <selectionType typeId="dc2dcaad-90a6-48ed-aada-e0ea8feebb27" valueTypeId="3f7af5c6-54b2-4fa4-86cc-a5c046a1d09f"/>
+    <listType typeId="c2a7d83d-4f0e-4f01-8ae2-a4e5d265575b" valueTypeId="6ee1688d-5142-4e31-8dd5-cf0309d8875e"/>
+    <managerType typeId="816e1639-5b02-456d-83ce-68fcb168eec6" valueTypeId="50d8d277-7223-48b4-9fd2-5fde9372f618"/>
+  </producedTypes>
+  <name>ДвиженияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения товаров</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДвиженияТоваров.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <listPresentation>
+    <key>ru</key>
+    <value>Движения товаров</value>
+  </listPresentation>
+  <columns uuid="ea1bb1e4-2e94-41b8-92cf-49419e0504d6">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="8e5fa270-b80e-4b23-83d0-f4d678bb8591">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Ответственный</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Ответственный</references>
+  </columns>
+  <columns uuid="c1f17399-640d-4c7d-9b28-c3a3765b1d27">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="b78248b3-6e52-48d0-8127-c67947c0563b">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Комментарий</references>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="bdf876d7-6e9c-4a01-b268-0c2be85387b8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

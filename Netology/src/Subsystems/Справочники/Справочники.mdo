@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7c70c0b-fc78-4dee-877c-b895a8eeac4b">
+  <name>Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ОбщаяКартинка1</picture>
+  </picture>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Должности</content>
+  <content>Catalog.КонтактныеЛица</content>
+  <content>Catalog.Упаковки</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Enum.ТипНоменклатуры</content>
+  <content>Enum.ТипСобытия</content>
+  <content>Constant.ВерсияКонфигурации</content>
+  <content>Enum.ТипыКонтактнойИнформации</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>CommonForm.ФормаКонстант</content>
+</mdclass:Subsystem>
